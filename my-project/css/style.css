@@ -2,40 +2,132 @@
 	box-sizing: border-box;
 }
 
+/*==============MOBILE================*/
+
 body {
 	font-family: "Helvetica Neue";
-}
-
-header {
 	text-align: center;
-	font-size: 1.5em;
+	background-color: #B7B6C1;
 }
 
 section {
 	border: 0.5px solid black;
 	margin: 1.5vw;
 	width: 95vw;
+	font-size: 1em;
+	background-color: white;
+}
+
+article {
+	border: 0.5px solid black;
+	height: auto;
+	padding: 0.3em 0.3em 0.3em 0;
+}
+
+h2 {
 	font-size: 1.5em;
 }
 
+h3, #title {
+	font-style: bold;
+	font-size: 1.5em;
+}
+
+h3#exp {
+	border: 0.5px solid black;
+}
+
+p {
+	font-size: 0.5em;
+	padding: 0 2em 0 2em;
+}
+p#date, #opening-statement {
+	font-size: 1em;
+	padding-bottom: 0.5em;
+}
+
+li#links {
+	text-align: center;
+}
+
+li {
+	text-align: left;
+	padding-left: 1em;
+}
+
+main#personal {
+	height: auto;
+	border: 0.5px solid black;
+	margin-top: 0.3vh;
+}
+
 section#pers-data {
-	height: 40vh;
+	height: auto;
 }
 
 section#profile-pic { 
 	width: 100%;
-	height: 20vh;
+	height: auto;
 	margin: 0;
 }
 
 section#experience {
-	height: 30vh;
+	height: auto;
+	font-size: 0.8em;
+	border: 0;
 }
 
 section#education {
-	height: 10vh;
+	height: auto;
+	font-size: 0.8em;
 }
 
 section#portfolio {
-	height: 10vh;
+	height: auto;
 }
+
+img#pic {
+	width: 100%;
+}
+
+/*==================================*/
+
+/*================TABLET=============*/
+
+@media screen and (max-width: 699px) and (min-width: 520px) {
+	section#profile-pic { 
+	width: 50%;
+	}
+	main#personal {
+	width: 50%;
+	}
+	section#pers-data {
+	float: left;
+}
+
+}
+
+/*@media screen and (max-width: 1000px) and (min-width: 700px) {
+    main > section {
+		width: 60%;
+    }
+    main > section#home {
+    	background-color: blue;
+    }
+}*/
+
+
+
+/*==================================*/
+
+
+
+
+
+
+
+
+
+
+
+
