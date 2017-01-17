@@ -57,7 +57,7 @@ li {
 
 main#personal {
 	height: auto;
-	border: 0.5px solid black;
+	border: 0;
 	margin-top: 0.3vh;
 }
 
@@ -69,6 +69,7 @@ section#profile-pic {
 	width: 100%;
 	height: auto;
 	margin: 0;
+	border: 0;
 }
 
 section#experience {
@@ -80,6 +81,7 @@ section#experience {
 section#education {
 	height: auto;
 	font-size: 0.8em;
+	text-align: center;
 }
 
 section#portfolio {
@@ -96,15 +98,25 @@ img#pic {
 
 @media screen and (max-width: 699px) and (min-width: 520px) {
 	section#profile-pic { 
-	width: 50%;
+	width: 49%;
+	float: left;
 	}
 	main#personal {
-	width: 50%;
+	width: 49%;
+	float: left;
+	font-size: 1.7vw;
 	}
 	section#pers-data {
-	float: left;
-}
-
+	display: inline-block;
+	margin: -3px 0 -3px -12px;
+	}
+	section#portfolio {
+	font-size: 1.7vw;
+	padding: 0.3em;
+	}
+	h3, #title, section#experience, section#education {
+	font-size: 2vw;
+	}
 }
 
 /*@media screen and (max-width: 1000px) and (min-width: 700px) {
