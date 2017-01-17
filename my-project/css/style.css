@@ -8,12 +8,34 @@ body {
 
 header {
 	text-align: center;
-	border: 0.5px solid black;
-	width: 100%;
 	font-size: 1.5em;
 }
-section#pers-data {
+
+section {
 	border: 0.5px solid black;
+	margin: 1.5vw;
+	width: 95vw;
+	font-size: 1.5em;
+}
+
+section#pers-data {
+	height: 40vh;
+}
+
+section#profile-pic { 
 	width: 100%;
-	height: 100px;
+	height: 20vh;
+	margin: 0;
+}
+
+section#experience {
+	height: 30vh;
+}
+
+section#education {
+	height: 10vh;
+}
+
+section#portfolio {
+	height: 10vh;
 }
